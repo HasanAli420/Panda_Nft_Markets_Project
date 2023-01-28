@@ -1,0 +1,17 @@
+/* @media (max-width: 768px){
+    #sideBar{
+        @apply -left-72;
+    }
+    #sideBar.active{
+        @apply left-0
+    }
+} */
+
+@media (max-width: 768px){
+    #sideBar.active{
+        left: 0;
+    }
+    #sideBar{
+        left: -18rem;
+    }
+}
